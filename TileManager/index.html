@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Tile Manager</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+		<script src="/scripts/web.core.js"></script>
+		<script>
+document.addEventListener('web-ready', () => {
+	require(['jquery', 'TileManager.js', 'style!index.css'], ($, TileManager) => {
+		window.tileManager = TileManager
+	})
+})
+
+		</script>
+	</head>
+	<body class="TTS App">
+		<ul class="nav navbar navbar-primary bg-primary Toolbar Menubar">
+			<div>
+				<a href="#" class="btn btn-primary active" type="button" data-tab="Tile">Tile</a>
+				<a href="#" class="btn btn-primary" type="button" data-tab="Layers">Layers</a>
+				<a href="#" class="btn btn-primary" type="button" data-tab="Styles">Styles</a>
+				<a href="#" class="btn btn-primary" type="button" data-tab="Settings">Settings</a>
+			</div>
+		</ul>
+		<div class="Main">
+			<div class="tab-content active" data-tab="Tile">
+				<!-- Tile Tab -->
+				<div class="Property Key" data-key="key">
+					<div class="Title">
+						Tile Key
+					</div>
+					<div class="Property">
+						<span class="TileKey"></span>
+					</div>
+				</div>
+				<div class="Property Slippy" data-key="slippy">
+					<div class="Title">
+						Tile Slippy
+					</div>
+					<div class="Property">
+						<span class="Slippy"></span>
+					</div>
+				</div>
+				<div class="Property Center" data-key="bounds.center">
+					<div class="Title">
+						Tile Center
+					</div>
+					<div class="Property">
+						<span class="TileCenter"></span>
+					</div>
+				</div>
+				<div class="Property Bounds" data-key="bounds">
+					<div class="Title">
+						Tile Bounds
+					</div>
+					<div class="Property">
+						<span class="TileBounds"></span>
+					</div>
+				</div>
+				<!-- TileTab -->
+
+			</div>
+			<div class="tab-content" data-tab="Layers">
+				<div class="Menu">
+					<div id="LayersControl" class="btn-group" role="group">
+						<i type="button" class="btn btn-secondary material-icons" data-action="add">add</i>
+						<i type="button" class="btn btn-secondary material-icons" data-action="clear">layers_clear</i>
+						<i type="button" class="btn btn-secondary material-icons" data-action="save">save</i>
+					</div>
+					<div id="LayersSelect" class="btn-group" role="group">
+						<button id="btnGroupDrop2" type="button" class="btn btn-secondary dropdown-toggle material-icons" data-bs-toggle="dropdown" aria-expanded="false">-----</button>
+						<ul class="dropdown-menu" aria-labelledby="btnGroupDrop2"></ul>
+						<i type="button" class="btn btn-secondary material-icons" data-action="save">save</i>
+						<i type="button" class="btn btn-secondary material-icons" data-action="delete">delete</i>
+					</div>
+					<div id="GeoJSONControls" class="btn-group" role="group">
+						<button id="btnGroupDrop3" type="button" class="btn btn-secondary dropdown-toggle material-icons" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">add</i></button>
+						<ul class="dropdown-menu" aria-labelledby="btnGroupDrop3">
+							<li><a class="dropdown-item" href="#" data-feature="Lakes">Lakes</a></li>
+							<li><a class="dropdown-item" href="#" data-feature="LandOwnership">Land Ownership</a></li>
+							<li><a class="dropdown-item" href="#" data-feature="Rivers">Rivers</a></li>
+							<li><a class="dropdown-item" href="#" data-feature="Roads">Roads</a></li>
+							<li><a class="dropdown-item" href="#" data-feature="Springs">Springs</a></li>
+							<li><a class="dropdown-item" href="#" data-feature="Streams">Streams</a></li>
+							<li><a class="dropdown-item" href="#" data-feature="Trails">Trails</a></li>
+     					</ul>
+						<i type="button" class="btn btn-secondary material-icons" data-action="clear">clear</i>
+						<i type="button" class="btn btn-secondary material-icons" data-action="save">format_paint</i>
+					</div>
+				</div>
+				<textarea id="LayerGeoJSON"></textarea>
+			</div>
+			<div class="tab-content" data-tab="Styles">
+
+				<div class="Property Style">
+					<div class="Title">
+						Basemap Style
+					</div>
+					<div class="Property">
+						<select class="BaseMap Style">
+							<option value="dark">dark</option>
+							<option value="light">light</option>
+							<option value="topo">topo</option>
+							<option value="streets">streets</option>
+							<option value="satellite">satellite</option>
+							<option selected value="hybrid">hybrid</option>
+						</select>
+					</div>
+				</div>
+
+			</div>
+			<div class="tab-content" data-tab="Settings">
+				Settings
+			</div>
+		</div>
+
+	
+		<div class="Tile draggable ui-widget-content">
+			<img class="Tile"></img>
+		</div>	
+	</body>
+</html>
+
+

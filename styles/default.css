@@ -1,0 +1,824 @@
+svg g {
+    fill: none;
+    stroke: #336699;
+}
+
+polyline {
+    fill: none;
+}
+
+svg[data-zoom="0"] g {
+    stroke-width: 15;
+    fill-opacity: .8;
+}
+
+svg[data-zoom="1"] g {
+    stroke-width: 11;
+    fill-opacity: .8;
+}
+
+svg[data-zoom="2"] g {
+    stroke-width: 11;
+    fill-opacity: .8;
+}
+
+svg[data-zoom="3"] g {
+    stroke-width: 8;
+    fill-opacity: .8;
+}
+
+svg[data-zoom="4"] g {
+    stroke-width: 8;
+    fill-opacity: .8;
+}
+
+svg[data-zoom="5"] g {
+    stroke-width: 5;
+    fill-opacity: .5;
+}
+
+svg[data-zoom="6"] g {
+    stroke-width: 5;
+    fill-opacity: .5;
+}
+
+svg[data-zoom="7"] g {
+    stroke-width: 5;
+    fill-opacity: .5;
+}
+
+svg[data-zoom="8"] g {
+    stroke-width: 5;
+    fill-opacity: .5;
+}
+
+svg[data-zoom="9"] g {
+    stroke-width: 5;
+    fill-opacity: .5;
+}
+
+svg[data-zoom="10"] g {
+    stroke-width: 5;
+    fill-opacity: .5;
+}
+
+svg[data-zoom="11"] g {
+    stroke-width: 5;
+    fill-opacity: .4;
+}
+
+svg[data-zoom="12"] g {
+    stroke-width: 5;
+    fill-opacity: .4;
+}
+
+svg[data-zoom="13"] g {
+    stroke-width: 5;
+    fill-opacity: .4;
+}
+
+svg[data-zoom="14"] g {
+    stroke-width: 5;
+    fill-opacity: .2;
+}
+
+svg[data-zoom="15"] g {
+    stroke-width: 5;
+    fill-opacity: .2;
+}
+
+svg[data-zoom="16"] g {
+    stroke-width: 5;
+    fill-opacity: .2;
+}
+
+svg[data-zoom="17"] g {
+    stroke-width: 10;
+    fill-opacity: .1;
+}
+
+svg[data-zoom="18"] g {
+    stroke-width: 5;
+    fill-opacity: .15;
+}
+
+svg[data-zoom="19"] g {
+    stroke-width: 5;
+    fill-opacity: .15;
+}
+
+svg[data-zoom="20"] g {
+    stroke-width: 5;
+    fill-opacity: .15;
+}
+
+.leaflet-overlay-pane svg {
+    width: 256px;
+    height: 256px;
+}
+
+g.Stream {
+    stroke: #2222ff;
+    fill: #68c0f4;
+}
+
+g.Stream polyline {
+    fill: none;
+}
+
+svg[data-zoom="0"] g.Stream {
+    display: none;
+}
+
+svg[data-zoom="1"] g.Stream {
+    display: none;
+}
+
+svg[data-zoom="2"] g.Stream {
+    display: none;
+}
+
+svg[data-zoom="3"] g.Stream {
+    display: none;
+}
+
+svg[data-zoom="4"] g.Stream {
+    display: none;
+}
+
+svg[data-zoom="5"] g.Stream {
+    display: none;
+}
+
+svg[data-zoom="6"] g.Stream {
+    display: none;
+}
+
+svg[data-zoom="7"] g.Stream {
+    display: none;
+}
+
+svg[data-zoom="8"] g.Stream {
+    display: none;
+}
+
+svg[data-zoom="9"] g.Stream {
+    display: none;
+}
+
+svg[data-zoom="10"] g.Stream {
+    display: none;
+}
+
+g.River {
+    stroke: #2222ff;
+    fill: #68c0f4;
+}
+
+g.River polyline {
+    fill: none;
+}
+
+g.Lake {
+    stroke: #2222ff;
+    fill: #68c0f4;
+}
+
+g.Lake polyline {
+    fill: none;
+}
+
+g.Spring {
+    stroke: #2222ff;
+    fill: #68c0f4;
+}
+
+g.Spring polyline {
+    fill: none;
+}
+
+g.Spring circle {
+    fill: #0099ff;
+    fill-opacity: 0.6;
+}
+
+svg[data-zoom="0"] g.Spring {
+    display: none;
+}
+
+svg[data-zoom="1"] g.Spring {
+    display: none;
+}
+
+svg[data-zoom="2"] g.Spring {
+    display: none;
+}
+
+svg[data-zoom="3"] g.Spring {
+    display: none;
+}
+
+svg[data-zoom="4"] g.Spring {
+    display: none;
+}
+
+svg[data-zoom="5"] g.Spring {
+    display: none;
+}
+
+svg[data-zoom="6"] g.Spring {
+    display: none;
+}
+
+svg[data-zoom="7"] g.Spring {
+    display: none;
+}
+
+svg[data-zoom="8"] g.Spring {
+    display: none;
+}
+
+svg[data-zoom="9"] g.Spring {
+    display: none;
+}
+
+svg[data-zoom="10"] g.Spring {
+    display: none;
+}
+
+svg[data-zoom="11"] g.Spring {
+    display: none;
+}
+
+svg[data-zoom="12"] g.Spring {
+    display: none;
+}
+
+svg[data-zoom="13"] g.Spring {
+    display: none;
+}
+
+g.Road {
+    stroke: #ffffdd;
+    stroke-opacity: 1;
+}
+
+g.Road polyline {
+    fill: none;
+}
+
+g.Road.CARTOCODE1 {
+    stroke-width: 10;
+}
+
+g.Road.CARTOCODE2 {
+    stroke-width: 10;
+}
+
+g.Road.CARTOCODE3 {
+    stroke-width: 10;
+}
+
+g.Road.CARTOCODE4 {
+    stroke-width: 8;
+}
+
+g.Road.CARTOCODE5 {
+    stroke-width: 8;
+}
+
+g.Road.CARTOCODE6 {
+    stroke-width: 6;
+}
+
+g.Road.CARTOCODE7 {
+    stroke-width: 0;
+}
+
+g.Road.CARTOCODE8 {
+    stroke-width: 0;
+}
+
+g.Road.CARTOCODE9 {
+    stroke-width: 0;
+}
+
+g.Road.CARTOCODE10 {
+    stroke-width: 0;
+}
+
+g.Road.CARTOCODE11 {
+    stroke-width: 0;
+}
+
+g.Road.CARTOCODE12 {
+    stroke-width: 0;
+}
+
+g.Road.CARTOCODE13 {
+    stroke-width: 0;
+}
+
+g.Road.CARTOCODE14 {
+    stroke-width: 0;
+}
+
+g.Road.CARTOCODE15 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE1 {
+    stroke-width: 10;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE2 {
+    stroke-width: 10;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE3 {
+    stroke-width: 10;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE4 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE5 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE6 {
+    stroke-width: 6;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE7 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE8 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE9 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE10 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE11 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE12 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE13 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE14 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="5"] g.Road.CARTOCODE15 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE1 {
+    stroke-width: 10;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE2 {
+    stroke-width: 10;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE3 {
+    stroke-width: 10;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE4 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE5 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE6 {
+    stroke-width: 6;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE7 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE8 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE9 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE10 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE11 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE12 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE13 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE14 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="8"] g.Road.CARTOCODE15 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE1 {
+    stroke-width: 10;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE2 {
+    stroke-width: 10;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE3 {
+    stroke-width: 10;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE4 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE5 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE6 {
+    stroke-width: 6;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE7 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE8 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE9 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE10 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE11 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE12 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE13 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE14 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="11"] g.Road.CARTOCODE15 {
+    stroke-width: 0;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE1 {
+    stroke-width: 14;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE2 {
+    stroke-width: 14;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE3 {
+    stroke-width: 14;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE4 {
+    stroke-width: 10;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE5 {
+    stroke-width: 10;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE6 {
+    stroke-width: 10;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE7 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE8 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE9 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE10 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE11 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE12 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE13 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE14 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE15 {
+    stroke-width: 8;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE1 {
+    stroke-width: 27;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE2 {
+    stroke-width: 27;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE3 {
+    stroke-width: 27;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE4 {
+    stroke-width: 20;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE5 {
+    stroke-width: 20;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE6 {
+    stroke-width: 20;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE7 {
+    stroke-width: 16;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE8 {
+    stroke-width: 16;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE9 {
+    stroke-width: 16;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE10 {
+    stroke-width: 16;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE11 {
+    stroke-width: 16;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE12 {
+    stroke-width: 16;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE13 {
+    stroke-width: 16;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE14 {
+    stroke-width: 16;
+}
+
+svg[data-zoom="17"] g.Road.CARTOCODE15 {
+    stroke-width: 16;
+}
+
+svg[data-zoom="0"] g.Road {
+    stroke-width: 14;
+}
+
+svg[data-zoom="1"] g.Road {
+    stroke-width: 13;
+}
+
+svg[data-zoom="2"] g.Road {
+    stroke-width: 13;
+}
+
+svg[data-zoom="3"] g.Road {
+    stroke-width: 11;
+}
+
+svg[data-zoom="4"] g.Road {
+    stroke-width: 10;
+}
+
+svg[data-zoom="5"] g.Road {
+    stroke-width: 10;
+}
+
+svg[data-zoom="6"] g.Road {
+    stroke-width: 10;
+}
+
+svg[data-zoom="7"] g.Road {
+    stroke-width: 9;
+}
+
+svg[data-zoom="8"] g.Road {
+    stroke-width: 9;
+}
+
+svg[data-zoom="9"] g.Road {
+    stroke-width: 8;
+}
+
+svg[data-zoom="10"] g.Road {
+    stroke-width: 8;
+}
+
+svg[data-zoom="11"] g.Road {
+    stroke-width: 7;
+}
+
+svg[data-zoom="12"] g.Road {
+    stroke-width: 7;
+}
+
+svg[data-zoom="13"] g.Road {
+    stroke-width: 7;
+}
+
+svg[data-zoom="14"] g.Road {
+    stroke-width: 20;
+}
+
+svg[data-zoom="15"] g.Road {
+    stroke-width: 10;
+}
+
+svg[data-zoom="16"] g.Road {
+    stroke-width: 10;
+}
+
+svg[data-zoom="17"] g.Road {
+    stroke-width: 21;
+}
+
+svg[data-zoom="18"] g.Road {
+    stroke-width: 21;
+}
+
+svg[data-zoom="19"] g.Road {
+    stroke-width: 21;
+}
+
+svg[data-zoom="20"] g.Road {
+    stroke-width: 21;
+}
+
+svg[data-zoom="10"] g.Road.CARTOCODE1 {
+    stroke-width: 15;
+}
+
+svg[data-zoom="10"] g.Road.CARTOCODE2 {
+    stroke-width: 15;
+}
+
+svg[data-zoom="10"] g.Road.CARTOCODE3 {
+    stroke-width: 15;
+}
+
+svg[data-zoom="13"] g.Road.CARTOCODE1 {
+    stroke-width: 12;
+}
+
+svg[data-zoom="13"] g.Road.CARTOCODE2 {
+    stroke-width: 12;
+}
+
+svg[data-zoom="13"] g.Road.CARTOCODE3 {
+    stroke-width: 12;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE1 {
+    stroke-width: 14;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE2 {
+    stroke-width: 14;
+}
+
+svg[data-zoom="14"] g.Road.CARTOCODE3 {
+    stroke-width: 14;
+}
+
+svg[data-zoom="10"] g.CARTOCODE1 {
+    stroke-width: 15;
+}
+
+g.Trail {
+    stroke: #00cc00;
+    fill: none;
+}
+
+g.Trail {
+    stroke-opacity: 0.6;
+}
+
+svg[data-zoom="0"] g.Trail {
+    display: none;
+}
+
+svg[data-zoom="1"] g.Trail {
+    display: none;
+}
+
+svg[data-zoom="2"] g.Trail {
+    display: none;
+}
+
+svg[data-zoom="3"] g.Trail {
+    display: none;
+}
+
+svg[data-zoom="4"] g.Trail {
+    display: none;
+}
+
+svg[data-zoom="5"] g.Trail {
+    display: none;
+}
+
+svg[data-zoom="6"] g.Trail {
+    display: none;
+}
+
+svg[data-zoom="7"] g.Trail {
+    display: none;
+}
+
+svg[data-zoom="8"] g.Trail {
+    display: none;
+}
+
+svg[data-zoom="9"] g.Trail {
+    display: none;
+}
+
+svg[data-zoom="10"] g.Trail {
+    display: none;
+}
+
+g.LandOwnership {
+    stroke: none;
+    fill: none;
+}
+
+g.LandOwnership polyline {
+    fill: none;
+}
+
+g.LandOwnership.Private {
+    stroke: #ff0000;
+    fill: #ff0000;
+}
+
+g.LandOwnership.Tribal {
+    stroke: #660066;
+    fill: #ff0000;
+}

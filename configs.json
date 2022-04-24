@@ -1,0 +1,37 @@
+{
+	"apiServer": "http://localhost:11503",
+	"map": {
+		"center": [38.66861892205284, -111.96167326188639],
+		"minZoom": 5,
+		"maxZoom": 19,
+		"zoom": 14,
+		"zoomDelta": 3,
+		"defaultTile": "Google Satellite"
+	},
+	"zoomLevels": [5, 8, 11, 14, 17],
+	"layers": {
+		"tiles": [
+			{"name": "Dark", "url": "/tiles/dark/{z}/{x}/{y}", "options": {"minZoom": 5, "maxZoom": 19, "tileSize": 512, "zoomOffset": -1}},
+			{"name": "Light", "url": "/tiles/light/{z}/{x}/{y}", "options": {"minZoom": 5, "maxZoom": 19, "tileSize": 512, "zoomOffset": -1}},
+			{"name": "Topo", "url": "/tiles/topo/{z}/{x}/{y}", "options": {"minZoom": 5, "maxZoom": 19, "tileSize": 512, "zoomOffset": -1}},
+			{"name": "Hybrid", "url": "/tiles/hybrid/{z}/{x}/{y}", "options": {"minZoom": 5, "maxZoom": 19, "tileSize": 512, "zoomOffset": -1}},
+			{"name": "Satellite", "url": "/tiles/satellite/{z}/{x}/{y}", "options": {"minZoom": 5, "maxZoom": 19, "tileSize": 512, "zoomOffset": -1}},
+			{"name": "Streets", "url": "/tiles/streets/{z}/{x}/{y}", "options": {"minZoom": 5, "maxZoom": 19, "tileSize": 512, "zoomOffset": -1}},
+			{"name": "Google Hybrid", "url": "http://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}", "options": {"maxZoom": 20, "minZoom": 8, "subdomains": ["mt0", "mt1", "mt2", "mt3"]}},
+			{"name": "Google Roads", "url": "http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}", "options": {"maxZoom": 20, "minZoom": 8, "subdomains": ["mt0", "mt1", "mt2", "mt3"]}},
+			{"name": "Google Roads Only", "url": "http://{s}.google.com/vt/lyrs=h&x={x}&y={y}&z={z}", "options": {"maxZoom": 20, "minZoom": 8, "subdomains": ["mt0", "mt1", "mt2", "mt3"]}},
+			{"name": "Google Satellite", "url": "http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}", "options": {"maxZoom": 20, "minZoom": 8, "subdomains": ["mt0", "mt1", "mt2", "mt3"]}},
+			{"name": "Google Terrain", "url": "http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}", "options": {"maxZoom": 20, "minZoom": 8, "subdomains": ["mt0", "mt1", "mt2", "mt3"]}},
+			{"name": "USGS", "url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}", "options": {"maxZoom": 20, "minZoom": 8}}
+		],
+		"features": [
+			{"name": "Lakes", "url": "/features/lakes/{key}.{ext}", "options": {"minZoom": 5, "maxZoom": 19}},
+			{"name": "Land Ownerships", "url": "/features/landownerships/{key}.{ext}", "options": {"minZoom": 8, "maxZoom": 19, "params": "type=private&type=tribal"}},
+			{"name": "Rivers", "url": "/features/rivers/{key}.{ext}", "options": {"minZoom": 5, "maxZoom": 19}},
+			{"name": "Roads", "url": "/features/roads/{key}.{ext}", "options": {"minZoom": 5, "maxZoom": 19}},
+			{"name": "Springs", "url": "/features/springs/{key}.{ext}", "options": {"minZoom": 13, "maxZoom": 19}},
+			{"name": "Streams", "url": "/features/streams/{key}.{ext}", "options": {"minZoom": 13, "maxZoom": 19}},
+			{"name": "Trails", "url": "features/trails/{key}.{ext}", "options": {"minZoom": 13, "maxZoom": 19}}
+		]
+	}
+}

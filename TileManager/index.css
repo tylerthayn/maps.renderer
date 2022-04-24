@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #336699;
+	overflow: hidden;
+}
+
+div.TileManager {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+div.Tile {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	width: 250px;
+	height: auto;
+}
+
+img.Tile {
+	width: 100%;
+	height: 100%;
+}
+
+div.Property {
+	display: flex;
+	width: 100%;
+}
+
+div.Property > div {
+	display: inline-block;
+	border: 1px solid #336699;
+	width: calc( 100% - 150px );
+}
+
+div.Property > div.Title {
+	width: 150px;
+}
+
+div.Property > div.Property {
+	font-size: 0.7em;
+}
+
+input.Size, select.Style {
+	width: 200px;
+}
+
+

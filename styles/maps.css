@@ -1,0 +1,34 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.Map {
+	width: 100%;
+	height: 100%;
+}
+
+.Hidden {
+	display: none !important;
+}
+
+.leaflet-control-tilegrid a.Toggle {
+	width: 44px !important;
+	height: 44px !important;
+	font-size: 40px;
+	padding-top: 8px;
+}
+
+.leaflet-control-tilegrid div.Zoom {
+	display: block;
+	cursor: pointer;
+}
+
+.leaflet-control-tilegrid a.Zoom {
+	font-size: 18px !important;
+	width: 22px;
+	height: 27px;
+	display: inline-block;
+}

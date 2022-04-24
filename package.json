@@ -1,0 +1,19 @@
+{
+  "name": "@tyler.thayn/maps.renderer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerthayn/maps.renderer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylerthayn/maps.renderer/issues"
+  },
+  "homepage": "https://github.com/tylerthayn/maps.renderer#readme"
+}
